@@ -1,0 +1,95 @@
+/* General del cuerpo */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #faf3e0; /* Fondo cálido */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px; /* Espaciado interno */
+    background-color: #f7dcc3; /* Color cálido */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin: 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #d67e3c;
+    margin: 0;
+}
+
+header .lead {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+/* Contenedor principal */
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto 0; /* Espaciado superior exacto */
+    padding: 0 15px;
+}
+
+/* Tarjeta del juego */
+.card {
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Botones */
+button {
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+button#verificar {
+    background-color: #f8c290;
+    border: none;
+}
+
+button#verificar:hover {
+    background-color: #f7b47f;
+}
+
+button#reiniciar {
+    background-color: #e1e1e1;
+    border: none;
+}
+
+button#reiniciar:hover {
+    background-color: #d4d4d4;
+}
+
+/* Input */
+input {
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#mensaje {
+    font-size: 1rem;
+    margin-top: 10px; /* Espaciado entre el input y el mensaje */
+    color: #333; /* Texto neutral */
+}
+
+/* Mensajes dinámicos: colores para correcto/incorrecto */
+#mensaje.correcto {
+    color: #28a745; /* Verde para respuestas correctas */
+    font-weight: bold;
+}
+
+#mensaje.incorrecto {
+    color: #dc3545; /* Rojo para respuestas incorrectas */
+    font-weight: bold;
+}
